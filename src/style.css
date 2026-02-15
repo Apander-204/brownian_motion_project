@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 992px) { 
+    .header h1 {
+        font-size: 2.5vw;
+    }
+    .header p {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 768px) { 
+    .header h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .header p {
+        text-align: center;
+    }
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 90vw;
+    height: 120px;
+    background-color: #fff;
+}
+
+.inputs input {
+    margin-top: 20px;
+    width: 30vw;
+}
+
+.temperature-input, .particles-input {
+    padding: 30px;
+}
+
+.simulation {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.simulation p {
+    font-size: 30px;
+}
+
+.simulation button {
+    width: 30vw;
+    background-color: #ebebeb;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.simulation-container {
+    width: 70vw;
+    padding: 10px;
+}
+
+.simulation-container canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.graph-info {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.info-container {
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.info-item {
+    width: 100%;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
