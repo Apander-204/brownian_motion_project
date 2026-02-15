@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Apander-204.github.io/brownian_motion_project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
